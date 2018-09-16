@@ -9,7 +9,7 @@ var gn = new GyroNorm();
 
 gn.init().then(function(){
   gn.start(function(data){
-    $(".testDiv").html("this is the device orientation absolute value? :"+data.do.absolute);
+    $(".testDiv").append("orientation absolute value? :"+data.do.absolute);
     console.log("We got insite the callback of GyroNorm");
     // Process:
     // data.do.alpha	( deviceorientation event alpha value )
