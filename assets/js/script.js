@@ -1,8 +1,8 @@
 console.log("javascript is go.");
 $(".testDiv").html("jquery works!");
 
-import GyroNorm from 'gyronorm';
-//var GyroNorm = require('gyronorm');
+//import GyroNorm from 'gyronorm';
+var GyroNorm = require('gyronorm');
 
 
 var gn = new GyroNorm();
